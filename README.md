@@ -20,10 +20,10 @@ youtubeIframeApi()
             height: 720,
             videoId: 'M7lc1UVf-VE',
             events: {
-		'onReady': onPlayerReady,
-		'onPlaybackQualityChange': onPlayerPlaybackQualityChange,
-		'onStateChange': onPlayerStateChange,
-		'onError': onPlayerError
+		    	'onReady': onPlayerReady,
+		    	'onPlaybackQualityChange': onPlayerPlaybackQualityChange,
+		    	'onStateChange': onPlayerStateChange,
+		    	'onError': onPlayerError
             }
         }); 
     });
