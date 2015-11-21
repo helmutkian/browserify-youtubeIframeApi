@@ -2,7 +2,7 @@ var Q = require('q');
 
 var apiDeferred = Q.defer();
 
-window.onYouTubeIframeAPIReady() = onYouTubeIframeAPIReady;
+window.onYouTubeIframeAPIReady = onYouTubeIframeAPIReady;
 
 function onYouTubeIframeAPIReady() {
   apiDeferred.resolve(window.YT);
