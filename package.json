@@ -1,0 +1,28 @@
+{
+  "name": "browserify-youtubeiframeapi",
+  "version": "0.0.1",
+  "description": "Provides a wrapper for the ``onYoutubeIframeApiReady`` callback.",
+  "main": "youtubeIframeApi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helmutkian/browserify-youtubeIframeApi.git"
+  },
+  "keywords": [
+    "browserify",
+    "youtube",
+    "iframe",
+    "api"
+  ],
+  "author": "Helmut Kian Rohrbacher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/helmutkian/browserify-youtubeIframeApi/issues"
+  },
+  "homepage": "https://github.com/helmutkian/browserify-youtubeIframeApi#readme",
+  "dependencies": {
+    "q": "^1.4.1"
+  }
+}
