@@ -8,11 +8,8 @@ function onYouTubeIframeAPIReady() {
   apiDeferred.resolve(window.YT);
 }
 
-function useYouTubeIframeApi(fn) {
-    return apiDeferred.promise
-	.then(function (ytApi) {
-	    fn(ytApi);
-	});
+function getYouTubeIframeApi(fn) {
+    return apiDeferred.promise;
 }
 
-module.exports = useYouTubeIframeApi;
+module.exports = getYouTubeIframeApi;
